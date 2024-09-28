@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mongo-configmap
+  namespace: default
+data:
+  MONGO_INITDB_ROOT_USERNAME: "workshop"
+  MONGO_INITDB_ROOT_PASSWORD: "workshop"
+  GLIBC_TUNABLES: "glibc.pthread.rseq=0"

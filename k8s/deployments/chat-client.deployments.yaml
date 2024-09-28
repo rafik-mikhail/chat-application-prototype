@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: chat-client
+spec:
+  selector:
+    matchLabels:
+      app: chat-client
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: chat-client
+    spec:
+      containers:
+        - name: chat-client
+          image: rafiksherif/chat-client:latest
+          ports:
+            - containerPort: 3000
+          envFrom:
+            - configMapRef:
+                name: chat-client-configmap

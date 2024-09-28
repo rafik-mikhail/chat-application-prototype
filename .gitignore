@@ -1,0 +1,158 @@
+# # chat service
+
+# compiled output
+chat-service/dist
+chat-service/node_modules
+chat-service/build
+
+# Logs
+chat-service/logs
+chat-service/*.log
+chat-service/npm-debug.log*
+chat-service/pnpm-debug.log*
+chat-service/yarn-debug.log*
+chat-service/yarn-error.log*
+chat-service/lerna-debug.log*
+
+# OS
+chat-service/.DS_Store
+
+# Tests
+chat-service/coverage
+chat-service/.nyc_output
+
+# IDEs and editors
+chat-service/.idea
+chat-service/.project
+chat-service/.classpath
+chat-service/.c9/
+chat-service/*.launch
+chat-service/.settings/
+chat-service/*.sublime-workspace
+
+# IDE - VSCode
+chat-service/.vscode/*
+chat-service/!.vscode/settings.json
+chat-service/!.vscode/tasks.json
+chat-service/!.vscode/launch.json
+chat-service/!.vscode/extensions.json
+
+# dotenv environment variable files
+chat-service/.env
+chat-service/.env.development.local
+chat-service/.env.test.local
+chat-service/.env.production.local
+chat-service/.env.local
+
+# temp directory
+chat-service/.temp
+chat-service/.tmp
+
+# Runtime data
+chat-service/pids
+chat-service/*.pid
+chat-service/*.seed
+chat-service/*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+chat-service/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+
+# # chat client
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+chat-client/node_modules
+chat-client/.pnp
+chat-client/.pnp.js
+chat-client/.yarn/install-state.gz
+
+# testing
+chat-client/coverage
+
+# next.js
+chat-client/.next/
+chat-client/out/
+
+# production
+chat-client/build
+
+# misc
+chat-client/.DS_Store
+chat-client/*.pem
+
+# debug
+chat-client/npm-debug.log*
+chat-client/yarn-debug.log*
+chat-client/yarn-error.log*
+
+# local env files
+chat-client/.env*.local
+
+# vercel
+chat-client/.vercel
+
+# typescript
+chat-client/*.tsbuildinfo
+chat-client/next-env.d.ts
+
+
+# # chatbot service
+
+# compiled output
+chatbot-service/dist
+chatbot-service/node_modules
+chatbot-service/build
+
+# Logs
+chatbot-service/logs
+chatbot-service/*.log
+chatbot-service/npm-debug.log*
+chatbot-service/pnpm-debug.log*
+chatbot-service/yarn-debug.log*
+chatbot-service/yarn-error.log*
+chatbot-service/lerna-debug.log*
+
+# OS
+chatbot-service/.DS_Store
+
+# Tests
+chatbot-service/coverage
+chatbot-service/.nyc_output
+
+# IDEs and editors
+chatbot-service/.idea
+chatbot-service/.project
+chatbot-service/.classpath
+chatbot-service/.c9/
+chatbot-service/*.launch
+chatbot-service/.settings/
+chatbot-service/*.sublime-workspace
+
+# IDE - VSCode
+chatbot-service/.vscode/*
+chatbot-service/!.vscode/settings.json
+chatbot-service/!.vscode/tasks.json
+chatbot-service/!.vscode/launch.json
+chatbot-service/!.vscode/extensions.json
+
+# dotenv environment variable files
+chatbot-service/.env
+chatbot-service/.env.development.local
+chatbot-service/.env.test.local
+chatbot-service/.env.production.local
+chatbot-service/.env.local
+
+# temp directory
+chatbot-service/.temp
+chatbot-service/.tmp
+
+# Runtime data
+chatbot-service/pids
+chatbot-service/*.pid
+chatbot-service/*.seed
+chatbot-service/*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+chatbot-service/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
